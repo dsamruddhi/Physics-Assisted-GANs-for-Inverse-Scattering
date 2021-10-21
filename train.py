@@ -55,13 +55,13 @@ if __name__ == '__main__':
     images_to_save = [0, 7, 10, 20, 50, 100, 150]
 
     """" GPU config """
-    # tf.random.set_seed(1234)
-    # tf.keras.backend.clear_session()
-    # from tensorflow.compat.v1 import ConfigProto
-    # from tensorflow.compat.v1 import InteractiveSession
-    # config = ConfigProto()
-    # config.gpu_options.per_process_gpu_memory_fraction = 0.4
-    # session = InteractiveSession(config=config)
+    tf.random.set_seed(1234)
+    tf.keras.backend.clear_session()
+    from tensorflow.compat.v1 import ConfigProto
+    from tensorflow.compat.v1 import InteractiveSession
+    config = ConfigProto()
+    config.gpu_options.per_process_gpu_memory_fraction = 0.4
+    session = InteractiveSession(config=config)
 
     model_path = Config.model_path
 
