@@ -1,1 +1,1 @@
-# Physics-assisted-GANs-for-Inverse-Scattering-Problems
+# Physics Assisted GANs for Inverse Scattering Problems
